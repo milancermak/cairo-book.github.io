@@ -29,7 +29,7 @@ You can also create more complex mappings than that; you can find one in Listing
 <span class="caption">Listing 99-2bis: Storing mappings</span>
 
 In mappings, the address of the value at key `k_1,...,k_n` is `h(...h(h(sn_keccak(variable_name),k_1),k_2),...,k_n)` where ℎ
-is the Pedersen hash and the final value is taken `mod2251−256`. You can learn more about the contract storage layout in the [Starknet Documentation](https://docs.starknet.io/documentation/architecture_and_concepts/Contracts/contract-storage/#storage_variables)
+is the Pedersen hash and the final value is taken `mod (2^251)−256`. You can learn more about the contract storage layout in the [Starknet Documentation](https://docs.starknet.io/documentation/architecture_and_concepts/Contracts/contract-storage/#storage_variables)
 
 ### Storing custom structs
 
